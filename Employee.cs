@@ -14,7 +14,5 @@
             Gender = gender;
             Salary = salary;
         }
-
-
     }
 }

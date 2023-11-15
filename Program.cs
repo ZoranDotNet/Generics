@@ -11,10 +11,8 @@
             Employee e4 = new Employee(140, "Hanna", "Female", 55000m);
             Employee e5 = new Employee(150, "Stefan", "Male", 75000m);
 
-
             Stack<Employee> stack = new Stack<Employee>();
             List<Employee> employees = new List<Employee>();
-
 
             //push objects to stack
             stack.Push(e1);
@@ -39,8 +37,6 @@
                 Employee tempEmp = stack.Pop();
                 Console.WriteLine($"{tempEmp.Id} {tempEmp.Name} {tempEmp.Gender} {tempEmp.Salary}");
                 Console.WriteLine($"Items left in the stack = {stack.Count}");
-
-
             }
 
             //push back to stack
@@ -88,14 +84,6 @@
             {
                 Console.WriteLine($"{item.Id} {item.Name} {item.Gender} {item.Salary}");
             }
-
-
-
-
-
-
-
-
         }
     }
 }
